@@ -5,6 +5,9 @@ import java.util.Scanner;
 public class ScannerAndLoop {
 
 	public static void main(String[] args) {
+		
+		//Do While Example
+		
 	//Ask user what is his name 5 times. Also, print: hello +name
 		
 		/* Scanner scan;
@@ -51,7 +54,12 @@ public class ScannerAndLoop {
 		*/
 		
 		
-		///Lucky Number with While
+		
+		
+		
+		
+		
+		///While Example
 		
 	
 		
@@ -63,16 +71,16 @@ public class ScannerAndLoop {
 		
 		Scanner scan;
 		int numberFromUser;
-		
-		int luckyNumber=7;
-		
-		scan=new Scanner(System.in);
-		System.out.println("Please enter any number from 1 to 100");
-		numberFromUser=scan.nextInt();
-		
-		while(numberFromUser!=luckyNumber) {
-			System.out.println("Please enter any number from 1 to 100");
-		}
 
-}
+		int luckyNumber = 7;
+
+		scan = new Scanner(System.in);
+		System.out.println("Please enter any number from 1 to 100");
+		numberFromUser = scan.nextInt();
+
+		while (numberFromUser != luckyNumber) {
+			System.out.println("Please enter any number from 1 to 100");
+			numberFromUser = scan.nextInt();
+		}
+	}
 }
