@@ -4,7 +4,7 @@ public class GroupProject {
 
 	public static void main(String[] args) {
 		
-		
+		/*
 		int i =0;
 		int num =0;
 		String primeNumbers = "";
@@ -29,7 +29,7 @@ public class GroupProject {
 
 	
 	
-			
+		*/	
 			
 
 			
@@ -97,9 +97,9 @@ public class GroupProject {
 
 		System.out.println("Maximum Number: " + maxNumber);
 		System.out.println("Minimum Number: " + minNumber); */
-	}
+/*	}
 
-}
+}*/
 
 		
 		// Write a Java Program to print the first 10 numbers of Fibonacci series.
@@ -116,8 +116,24 @@ public class GroupProject {
 		}
 		System.out.println("The first " + numberLimit + " numbers of the Fibonacci Sequence:");
 		for (int i = 0; i < numberLimit; i++) {
-			System.out.print(seriesOfNumbers[i] + " ");
-		}
-	}*/
+			System.out.print(seriesOfNumbers[i] + " ");*/
+		
+		int [] [] sumNumber = {
+				{100,88,74},
+				{99,120,45},
+				{88,33,1000},
+				};
+				sumRowsCols(sumNumber);
+			}
 
+			public static void sumRowsCols(int[][] row) {
+				int sum = 0;
+				for (int i = 0; i < row.length; i++) {
+					for (int j = 0; j < row[i].length; j++)
+						sum = sum + row[i][j];
+				}
+				System.out.println("The sum of all numbers is " + sum);
+			}
+
+		}
 		
